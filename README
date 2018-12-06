@@ -1,0 +1,11 @@
+ABCtitle.txt ... ABC問題のタイトルが入っている コンテスト名 A問題 B問題 C問題 D問題 の順にコンテスト名降順に並んでいる。
+boxcolor.txt ... 問題の枠の色 0:白 1:緑 2:ピンク 3:黄色 を表しており、ABCtitle.txt の問題に対応している。
+BultinBoard.pde ... Processing のコード
+
+ABCtitle.txt と boxcolor.txt と BultinBoard.pde は一緒のフォルダに入れて下さい。
+コード実行中、's' のキーを押すと 現時点での問題の枠の色が、以前の boxcolor.txt 上に上書きされます。
+
+ABCtitle.txt と boxcolor.txt はテキストファイルですが、改行が '\n' なので、適宜直して使って下さい。
+
+いろいろまだ問題はあるが取り敢えずリリース。
+
