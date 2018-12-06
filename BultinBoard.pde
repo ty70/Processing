@@ -22,7 +22,7 @@ void setup(){
 //     print(titles[j] + " ");
      Titles[i][j] = titles[j];
    } // end for
-   println("");
+//   println("");
  } // end for
  
  BoxColor = new int[N][4];
@@ -61,12 +61,12 @@ void draw(){
       } // end switch
       rect(offsetx + 400 * j, i * side, 400, 200);
     } // end for
-    println("");
+//    println("");
   } // end for
   textSize(side);
   fill(81,138,185);
   for (int i = 0; i < N; ++i){
-    text(Titles[i][0], 10, i * side);
+    text(Titles[i][0], 10, (i+1) * side);
     for (int j = 1; j < 5; ++j){
       text(Titles[i][j], offsetx + 400*(j-1), (i+1) * side);
     } // end for
