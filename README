@@ -7,5 +7,9 @@ ABCtitle.txt と boxcolor.txt と BultinBoard.pde は一緒のフォルダに入
 
 ABCtitle.txt と boxcolor.txt はテキストファイルですが、改行が '\n' なので、適宜直して使って下さい。
 
+ver 0.0.1
 いろいろまだ問題はあるが取り敢えずリリース。
+
+ver 0.0.2
+ABCコンテストのタイトルがズレているのを修復。
 
